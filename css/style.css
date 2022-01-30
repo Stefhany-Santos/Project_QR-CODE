@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Declarando Váriavel */
+:root { 
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-gray);
+}
+
+.main{
+    width: 80%;
+    display: table;
+    margin: 60px auto;
+}
+.card-container{
+    width: 230px;
+    margin: 60px auto;
+    display: table;
+}
+
+/* declarando as propriedades da caixa */
+.card{
+    width: 100%;
+    background-color: var(--white);
+    border-radius:15px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 13px rgb(0, 0, 0, 0.15);
+}
+
+/* Pripriedades da imagem */
+.card .card-image{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 11px;
+    display: block;
+}
+
+/* propriedades do textos */
+.card .card-body {
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Propriedades do título */
+.card .card-body h1 {
+    font-family: Outfit, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin: 0;
+    
+}
+
+/* Propriedades do paragrafo */
+.card .card-body p {
+    display: table;
+    font-family: Outfit, sans-serif;
+    font-size: 11px;
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin: 11px;
+}
+
+footer{
+    font-family: Outfit, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
